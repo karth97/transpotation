@@ -1,0 +1,53 @@
+<html>
+<head>
+<title> sample HTML </title>
+</head>
+    <h1>    <marquee behavior="scroll"bgcolor="chocolate" direction="right">STUDENT INFO<br>
+    please enter the details below </marquee>
+    </h1>
+    	
+<body bgcolor="tan">
+    <form action="welcome.html" method="get">
+  <h1>          <a href="Aboutus.html" align="right">about us</a>
+            <a href="Contactus.html"align="right">Contact us</a>
+        </h1>
+            <fieldset>
+				<legend>USER INFO</legend>
+                <label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
+                <label>Email id: <input type="text" name="em" size="30" maxlength="100"></label><br />
+                <label>Password: <input type="password" name="pwd" size="30" maxlength="100"></label><br />
+                <label>Address: <input type="text" name="add" size="30" maxlength="100"></label><br />
+                <label>Dob: <input type="text" name="name" size="30" maxlength="100"></label><br />
+				<label>PH.Number: <input type="text" name="email" size="10" maxlength="11"></label><br />
+			</fieldset><br />
+			<fieldset>
+				<legend>Hobbies</legend>
+				<p>
+					<label for="hob">How are your hobbies?</label>
+					<select name="referrer" id="hob">
+						<option value="cric">cricket</option>
+						<option value="music">music</option>
+						<option value="gsme">games</option>
+						<option value="others">Others</option>
+					</select>
+				</p>
+                <legend>College Info</legend>
+                <label for="clg">Which college are you from?></label>
+                <select name="clg" id="clg">
+                    <option value="mlrit">MALLAREDY INSTITUTE OF TECHNOLOGY</option>
+                    <option value="svit">SWAMI VIVEKANANDA INSTITUTE OF TECHNOLOGY</option>
+                    <option value="grit">GOKARAJU RANGARAJU INSTITUTE OF TECHNOLOGY</option>
+                    <option value="ait">AERONOTICAL INSTITUTE OF TECHNOLOGY</option>
+                </select>
+                <label>
+                    <h4> Which year are you persuing at?</h4>
+                    <input type="radio" name="rb" value="1" /> 1st year<br />
+                    <input type="radio" name="rb" value="2" /> 2nd year<br />
+                    <input type="radio" name="rb" value="3" /> 3rd year<br />
+                    <input type="radio" name="rb" value="4" /> 4th year<br />
+                </label><input type="submit" value="Submit" />
+			
+			</fieldset>
+        </form>
+	</body>
+</html>
